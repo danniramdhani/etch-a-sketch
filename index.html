@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Etch a Sketch</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <input type="color" id="color" value="#252422" />
+                <button class="draw">Draw</button>
+                <button class="rgb-mode">RGB</button>
+                <!--<button class="grayscale-mode">Grayscale</button>-->
+                <button class="erase">Erase</button>
+                <button class="clear">Clear</button>
+            </div>
+            <div class="right">
+                <div class="title">Etch a Sketch</div>
+                <div class="sketch"></div>
+                <div class="bottom-right">
+                    <div class="info-grid">16 x 16</div>
+                    <button class="new-grid">Set New Grid</button>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    background-color: #fffcf2;
+    color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /*background-color: crimson;*/
+    display: flex;
+    width: 40%;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    /*background-color: goldenrod;*/
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    gap: 0.4em;
+}
+
+.right {
+    /*background-color: teal;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-right {
+    /*background-color: lawngreen;*/
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.4em;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sketch {
+    border: 2px solid #252422;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1em;
+    padding: 0;
+}
+
+.sketch div {
+    background-color: #fff;
+}
+
+.hover-color {
+    background-color: #252422;
+}
+
+button {
+    border: none;
+    background-color: #eb5e28;
+    color: #fffcf2;
+    padding: 0.4em;
+}
+
+.draw:focus,
+.erase:focus {
+    background-color: #252422;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+button:active {
+    transform: scale(0.98, 0.98);
+}
+
+
